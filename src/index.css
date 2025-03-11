@@ -1,4 +1,12 @@
-:root {
+body {
+  background-color: hsl(0, 0%, 8%);
+  background-image: url('./assets/5961.jpg');
+  background-size: cover; 
+  background-position: center;
+  height: 500px;
+}
+
+/*:root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +73,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+}*/
