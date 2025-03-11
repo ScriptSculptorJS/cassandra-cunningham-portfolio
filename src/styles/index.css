@@ -1,6 +1,6 @@
 body {
-  background-color: hsl(0, 0%, 8%);
-  background-image: url('./assets/5961.jpg');
+  /*Image by macrovector_official on Freepik*/
+  background-image: url('../assets/5961.jpg');
   background-size: cover; 
   background-position: center;
   height: 500px;
