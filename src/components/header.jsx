@@ -2,10 +2,11 @@ function Header() {
 
   return(
     <header>
-      <p class='name'>Cassandra Cunningham</p>
-      <div class='nav-container'>
-        <p class='projects'>Projects</p>
-        <p class='resume'>Resume</p>
+      <p className='name'>Cassandra Cunningham</p>
+      <div className='nav-container'>
+        <p className='about'>About</p>
+        <p className='projects'>Projects</p>
+        
       </div>
     </header>
   )
