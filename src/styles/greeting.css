@@ -3,18 +3,16 @@
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
-  margin-top: 15%
+  margin-top: 150px;
 }
 
 .greeting-content {
   width: 400px;
-  /*background-color: rgba(255, 255, 255, 0.079);*/
   border: 2px solid hsla(0, 0%, 83%, 0.798);
   background-color: #0D0D0D;
   margin: 0px 70px;
   padding: 30px;
   color: #FFFFFF;
-  /*box-shadow: rgba(0, 0, 0, 0.3) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(0, 0, 0, 0.3) 0px -2px 6px 0px inset;*/
   box-shadow: rgba(0, 0, 0, 0.80) 0px 22px 70px 4px;
   border-radius: 5px;
 }
@@ -56,10 +54,7 @@
   margin-top: 0px;
 }
 
-@media (max-width: 380px) {
-  .greeting-container {
-    margin-top: 30%;
-  }
+@media (max-width: 390px) {
   .greeting-content {
     width: 160px;
     margin: 0px 20px;
@@ -79,10 +74,7 @@
   }
 }
 
-@media (min-width: 380px) and (max-width: 500px) {
-  .greeting-container {
-    margin-top: 30%;
-  }
+@media (min-width: 390px) and (max-width: 500px) {
   .greeting-content {
     width: 190px;
   }
@@ -101,7 +93,7 @@
   }
 }
 
-@media (min-width: 500px) and (max-width: 535px) {
+@media (min-width: 500px) and (max-width: 550px) {
   .greeting-content {
     width: 250px;
   }
@@ -120,7 +112,7 @@
   }
 }
 
-@media (min-width: 535px) and (max-width: 650px) {
+@media (min-width: 550px) and (max-width: 650px) {
   .greeting-content {
     width: 300px;
   }

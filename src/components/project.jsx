@@ -1,13 +1,14 @@
 import projectImage from '../assets/test-project-image.jpg';
 
-function Project() {
+function Project({image, name, link, description}) {
+  console.log(image);
 
   return(
     <div className='project-container'>
       <div className='project-content'>
-        <img src={projectImage} className='project-image'/>
-        <h3 className='project-name'>Project Name</h3>
-        <p className='project-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <img src={image} className='project-image'/>
+        <h3 className='project-name'><a href={link}>{name}</a></h3>
+        <p className='project-description'>{description}</p>
       </div>
     </div>
   )
