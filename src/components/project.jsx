@@ -6,8 +6,8 @@ function Project({image, name, link, description}) {
   return(
     <div className='project-container'>
       <div className='project-content'>
-        <img src={image} className='project-image'/>
-        <h3 className='project-name'><a href={link}>{name}</a></h3>
+        <a href={link} target='_blank'><img src={image} className='project-image'/></a>
+        <a href={link} target='_blank'><h3 className='project-name'>{name}</h3></a>
         <p className='project-description'>{description}</p>
       </div>
     </div>
