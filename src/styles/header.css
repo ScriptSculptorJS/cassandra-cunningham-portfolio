@@ -45,7 +45,8 @@ header {
 
 .name:hover,
 .projects:hover,
-.about:hover {
+.about:hover,
+.menu-icon:hover {
   /*background-color: rgba(255, 255, 255, 0.079);*/
   background-color: rgba(255, 0, 153, 0.8);
   cursor: pointer;
@@ -56,24 +57,73 @@ header {
   margin-right: 30px;
 }
 
-@media (max-width: 400px) {
+.menu-icon {
+  height: 15px;
+  position: relative;
+  margin-right: 41px;
+  padding: 5px;
+  border-radius: 5px;
+  display: none;
+}
+
+.menu-about,
+.menu-projects,
+.menu-linkedin,
+.menu-github,
+.menu-email {
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 40px;
+  right: 14px;
+  background-color: #0D0D0D;
+  border: 2px solid hsla(0, 0%, 83%, 0.798);
+  border-radius: 5px;
+  font-size: 14px;
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.dropdown-menu p {
+  margin: 5px 10px 5px 10px;
+  width: 60px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #FFFFFF;
+}
+
+.dropdown-menu p:hover {
+  background-color: rgba(255, 0, 153, 0.8);
+  border-radius: 5px;
+}
+
+@media (max-width: 400.98px) {
   .name {
     font-size: 15px;
-    
   }
   .nav-container {
     font-size: 12px;
   }
   .projects {
     margin-left: 5px;
-    
+    display: none;
+  }
+  .about {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
   }
 }
 
-@media (min-width: 400px) and (max-width: 550px) {
+@media (min-width: 400.99px) and (max-width: 550px) {
   .name {
     font-size: 20px;
-    margin-left: 20px;
+    /*margin-left: 20px;*/
   }
   .nav-container {
     font-size: 16px;
@@ -81,14 +131,12 @@ header {
   .projects {
     margin-left: 10px;
     margin-right: 20px;
+    display: none;
+  }
+  .about {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
   }
 }
-
-/*@media (min-width: 550px) and (min-width: 750px) {
-  .name {
-    font-size: 25px;
-  }
-  .nav-container {
-    font-size: 20px;
-  }
-}*/

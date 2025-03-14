@@ -3,8 +3,13 @@
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
-  margin-top: 150px;
-  margin-left: 80px;
+  position: fixed;
+  /*margin-top: 350px;
+  margin-left: 80px;*/
+  top: 30%;
+  left:50%;
+  /*margin-top: -124.7725px;*/
+  margin-left: -241.818px;
 }
 
 .greeting-content {
@@ -55,7 +60,11 @@
   margin-top: 0px;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 390.98px) {
+  .greeting-container {
+    margin-left: -132px;
+    top: 15%
+  }
   .greeting-content {
     width: 160px;
     margin: 0px 20px;
@@ -75,7 +84,11 @@
   }
 }
 
-@media (min-width: 390px) and (max-width: 500px) {
+@media (min-width: 390.99px) and (max-width: 550.98px) {
+  .greeting-container {
+    margin-left: -166.818px;
+    top: 30%
+  }
   .greeting-content {
     width: 190px;
   }
@@ -94,26 +107,10 @@
   }
 }
 
-@media (min-width: 500px) and (max-width: 550px) {
-  .greeting-content {
-    width: 250px;
+@media (min-width: 550.99px) and (max-width: 650px) {
+  .greeting-container {
+    margin-left: -191.818px
   }
-  .greeting-container h1,
-  .greeting-container p {
-    width: 240px;
-  }
-  .greeting-container h1 {
-    font-size: 22px;
-  }
-  .greeting-container p {
-    font-size: 13px;
-  }
-  .greeting-container #noun {
-    font-size: 14px;
-  }
-}
-
-@media (min-width: 550px) and (max-width: 650px) {
   .greeting-content {
     width: 300px;
   }
