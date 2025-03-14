@@ -11,18 +11,20 @@ function Projects() {
     image: image1,
     name: 'Instagram Feed Practice',
     link: 'https://scriptsculptorjs.github.io/instagram-feed-practice/',
-    description: 'Using the HTML and CSS skills I acquired from a course on Youtube by SuperSimpleDev to recreate the Instagram feed page directly after logging in, using only HTML and CSS.'
+    skills: 'HTML5 | CSS',
+    description: 'Using the skills I acquired from a course on Youtube by SuperSimpleDev to recreate the Instagram feed page directly after logging in, and making it responsive. '
   }, {
     id: 2,
     image: image2,
     name: "Let's GO!",
     link: 'https://scriptsculptorjs.github.io/lets-go/',
-    description: "Practice using the HTML, CSS, and JS skills I have acquired from a SuperSimpleDev course on Youtube to create an app that makes GET requests from Bored's API."
+    skills: 'HTML5 | CSS | Javascript',
+    description: "Practice using the skills I have acquired from a SuperSimpleDev course on Youtube to create an app that makes GET requests from Bored's API and stores data in localStorage."
   }]
 
   projects.forEach((project) => {
     projectComponentArray.push(
-      <Project key={project.id} image={project.image} name={project.name} link={project.link} description={project.description} />
+      <Project key={project.id} image={project.image} name={project.name} link={project.link} skills={project.skills} description={project.description} />
     ) 
   })
 

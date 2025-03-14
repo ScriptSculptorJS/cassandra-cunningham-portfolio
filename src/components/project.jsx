@@ -1,4 +1,4 @@
-function Project({image, name, link, description}) {
+function Project({image, name, link, skills, description}) {
   console.log(image);
 
   return(
@@ -6,6 +6,7 @@ function Project({image, name, link, description}) {
       <div className='project-content'>
         <a href={link} target='_blank'><img src={image} className='project-image'/></a>
         <a href={link} target='_blank'><h3 className='project-name'>{name}</h3></a>
+        <p className='skills'><i>{skills}</i></p>
         <p className='project-description'>{description}</p>
       </div>
     </div>
