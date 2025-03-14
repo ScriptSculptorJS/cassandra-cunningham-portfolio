@@ -1,5 +1,3 @@
-import projectImage from '../assets/test-project-image.jpg';
-
 function Project({image, name, link, description}) {
   console.log(image);
 

@@ -1,0 +1,53 @@
+.contact-container {
+  position: fixed;
+  top: 190px;
+  left: 0px;
+  width: 50px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: #FFFFFF;
+  border-top: 2px solid hsla(0, 0%, 83%, 0.798);
+  border-right: 2px solid hsla(0, 0%, 83%, 0.798);
+  border-bottom: 2px solid hsla(0, 0%, 83%, 0.798);
+  border-radius: 0px 8px 8px 0px;
+  background-color: #0D0D0D;
+  box-shadow: rgba(0, 0, 0, 0.80) 0px 22px 70px 4px;
+  padding: 10px 0px;
+}
+
+.contact-container .linkedin,
+.contact-container .github,
+.contact-container .email {
+  width: 23px;
+  height: 23px;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 3px solid #0D0D0D;
+}
+
+.contact-container .linkedin:hover,
+.contact-container .github:hover,
+.contact-container .email:hover {
+  border: 3px solid rgba(255, 0, 153, 0.8);
+}
+
+.contact-container .linkedin-image {
+  width: 31px;
+  margin-left: -3.7px;
+  margin-top: -2.7px;
+}
+
+.contact-container .github-image {
+  height: 52px;
+  margin-left: -14.3px;
+  margin-top: -14.3px;
+}
+
+.contact-container .email-image {
+  height: 26px;
+  margin-left: -1.3px;
+  margin-top: -1px;
+}

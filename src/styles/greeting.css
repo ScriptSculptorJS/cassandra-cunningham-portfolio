@@ -4,13 +4,14 @@
   align-items: center;
   flex-flow: column wrap;
   margin-top: 150px;
+  margin-left: 80px;
 }
 
 .greeting-content {
   width: 400px;
   border: 2px solid hsla(0, 0%, 83%, 0.798);
   background-color: #0D0D0D;
-  margin: 0px 70px;
+  margin: 0px 40px;
   padding: 30px;
   color: #FFFFFF;
   box-shadow: rgba(0, 0, 0, 0.80) 0px 22px 70px 4px;
