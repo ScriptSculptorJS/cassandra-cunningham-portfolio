@@ -3,6 +3,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 150px;
+  margin-left: 40px;
 }
 
 .project-container {
@@ -12,12 +13,14 @@
   align-items: center;
   flex-flow: column wrap;
   margin-bottom: 30px;
+  
 }
 
 .project-content {
   width: 200px;
   border: 2px solid hsla(0, 0%, 83%, 0.798);
   background-color: #0D0D0D;
+  height: 273.778px;
   margin: 0px 30px;
   padding: 20px;
   color: #FFFFFF;
@@ -71,3 +74,15 @@
   cursor: pointer;
   font-weight: bold;
 }
+
+@media (max-width: 550px) {
+  .projects-container {
+    margin-left: 0px;
+  }
+}
+
+/*@media (min-width: 747.01px) and (max-width: 860px) {
+  .project-container {
+    margin-left: 40px;
+  }
+}*/

@@ -1,6 +1,7 @@
 import Project from '../components/project.jsx';
 import image1 from '../assets/instagram-feed-practice.png';
 import image2 from '../assets/lets-go-project.png';
+import image3 from '../assets/Rhody-park.png';
 import React from 'react';
 
 function Projects() {
@@ -22,6 +23,13 @@ function Projects() {
     skills: 'HTML5 | CSS | Javascript',
     description: "Practice using the skills I have acquired from a SuperSimpleDev course on Youtube to create an app that makes GET requests from Bored's API and stores data in localStorage.",
     repoLink: 'https://github.com/ScriptSculptorJS/lets-go'
+  }, {
+    id: 3,
+    image: image3,
+    name: 'Rhododendron Park Website',
+    link: 'https://rhodypark.com',
+    skills: 'WordPress | HTML5',
+    description: "Utilizing WordPress to create & edit content based on the HOA Trustees' vision and needs, and remove outdated information. Make the website more visually appealing and user friendly." 
   }]
 
   projects.forEach((project) => {
