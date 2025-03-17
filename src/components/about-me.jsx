@@ -43,6 +43,20 @@ function AboutMe() {
             Error Handling
           </p>
         </div>
+      
+        <div id='recognition-title-container'>
+          <h1 className='titles'>
+            Certificates
+          </h1>
+        </div>
+        <div id='recognition-list-container'>
+          <p>
+            Full Stack Web Development Certificate
+          </p>
+          <p>
+            Grade: A+
+          </p>
+        </div>
       </div>
     </div>
   )

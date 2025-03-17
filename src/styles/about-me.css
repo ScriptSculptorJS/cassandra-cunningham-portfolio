@@ -24,12 +24,17 @@
 #skills-content {
   flex: 1;
   margin-left: 10px;
-  height: 315px;
+  height: 465px;
 }
 
 .titles,
 .about-me-content span {
   color: #00FF85;
+}
+
+#skills-content .titles {
+  padding-left: 15px;
+  padding-right: 15px; 
 }
 
 .titles {
@@ -67,7 +72,8 @@
     display: flex;
     flex-direction: column;
   }
-  #skills-title-container {
+  #skills-title-container,
+  #recognition-title-container {
     display: flex;
     justify-content: center;
   }
@@ -77,9 +83,17 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+  #recognition-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   #skills-list-container p {
     margin-top: 0px;
     width: 75px;
+  }
+  #recognition-list-container p {
+    margin-top: 0px;
   }
   .titles {
     font-size: 17px;
@@ -90,5 +104,48 @@
   }
   .about-me-content span {
     font-size: 13px;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 830px) {
+  .about-me-container {
+    margin-top: 100px;
+    flex-direction: column;
+  }
+  #bio-content,
+  #skills-content {
+    flex: 0;
+    margin-left: 60px;
+    margin-right: 20px;
+  }
+  #bio-content {
+    margin-bottom: 15px;
+  }
+  #skills-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #skills-title-container,
+  #recognition-title-container {
+    display: flex;
+    justify-content: center;
+  }
+  #skills-list-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #recognition-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #skills-list-container p {
+    margin-top: 0px;
+    width: 75px;
+  }
+  #recognition-list-container p {
+    margin-top: 0px;
   }
 }
