@@ -4,6 +4,7 @@ import './styles/index.css';
 import './styles/header.css';
 import './styles/contact-bar.css';
 import './styles/greeting.css';
+import './styles/about-me.css';
 import './styles/project.css';
 import App from './App.jsx'
 import { BrowserRouter as Router } from 'react-router-dom';

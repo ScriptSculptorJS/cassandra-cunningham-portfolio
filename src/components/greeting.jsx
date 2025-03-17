@@ -10,10 +10,10 @@ function Greeting() {
           I'm <span><b>Cassandra Cunningham</b></span>
         </h1>
         <p>
-          A <b id='noun'>Frontend Web Developer</b> eager to explore and try new things when building Web Applications and Websites.
+          A <b className='noun'>Frontend Web Developer</b> eager to explore and try new things when building Web Applications and Websites.
         </p>
         <p className='detective'>
-          A skilled <b id='noun'>Detective</b> for root causes when errors arise within a project.
+          A skilled <b className='noun'>Detective</b> for root causes when errors arise within a project.
         </p>
       </div>
     </div>

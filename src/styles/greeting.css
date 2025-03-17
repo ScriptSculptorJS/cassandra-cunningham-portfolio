@@ -51,7 +51,7 @@
   color: #00FF85;
 }
 
-.greeting-container #noun {
+.greeting-container .noun {
   font-size: 18px;
   color: #00FF85;
 }
@@ -79,7 +79,7 @@
   .greeting-container p {
     font-size: 12px;
   }
-  .greeting-container #noun {
+  .greeting-container .noun {
     font-size: 13px;
   }
 }
@@ -102,7 +102,7 @@
   .greeting-container p {
     font-size: 12px;
   }
-  .greeting-container #noun {
+  .greeting-container .noun {
     font-size: 13px;
   }
 }
@@ -124,7 +124,13 @@
   .greeting-container p {
     font-size: 15px;
   }
-  .greeting-container #noun {
+  .greeting-container .noun {
     font-size: 16px;
+  }
+}
+
+@media (min-width: 770px) {
+  .greeting-container {
+    margin-left: -261.818px
   }
 }
