@@ -26,7 +26,7 @@ function Projects() {
   }, {
     id: 3,
     image: image3,
-    name: 'Rhododendron Park Website',
+    name: 'Rhododendron Park Maintenance Company Website',
     link: 'https://rhodypark.com',
     skills: 'WordPress | HTML5',
     description: "Utilizing WordPress to create & edit content based on the HOA Trustees' vision and needs, and remove outdated information. Make the website more visually appealing and user friendly." 

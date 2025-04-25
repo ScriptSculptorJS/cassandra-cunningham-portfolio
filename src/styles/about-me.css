@@ -28,7 +28,8 @@
 }
 
 .titles,
-.about-me-content span {
+.about-me-content span,
+.work {
   color: #00FF85;
 }
 

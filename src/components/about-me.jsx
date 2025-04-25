@@ -15,6 +15,17 @@ function AboutMe() {
         <p className='bottom-text'>
           Before finding a career in web development, I began working for eBay where I gained experience in <span>Project Management and finding solutions to problems</span> within our tech stack. Now that I am no longer working with eBay, I am ready to take all the knowledge I've gained from the Bootcamp and eBay, and using this time to refresh my memory on Web Development and build new projects with the aim of <span>making my dream of being a Software Engineer a reality!</span>
         </p>
+        
+        
+        <h2 className='titles'>
+          Let's Work Together!
+        </h2>
+        <p>
+          I am very passionate about helping you <span>achieve what you are envisioning for your website/app!</span>
+        </p>
+        <p>
+          Is your website/app running into issues? <span>Let me use my detective skills to find their solutions!</span>
+        </p>
       </div>
 
       <div className='about-me-content' id='skills-content'>
@@ -43,7 +54,7 @@ function AboutMe() {
             Error Handling
           </p>
         </div>
-      
+        
         <div id='recognition-title-container'>
           <h1 className='titles'>
             Certificates
