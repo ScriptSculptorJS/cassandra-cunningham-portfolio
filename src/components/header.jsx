@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import menu from '../assets/hamburger-menu.png';
+import menu from '../../public/assets/hamburger-menu.png';
 
 function Header() {
 

@@ -1,6 +1,6 @@
-import linkedin from '../assets/linkedin-logo.png';
-import github from '../assets/github.png';
-import email from '../assets/email.png';
+import linkedin from '../../public/assets/linkedin-logo.png';
+import github from '../../public/assets/github.png';
+import email from '../../public/assets/email.png';
 
 function ContactBar() {
 
