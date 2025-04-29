@@ -14,9 +14,9 @@ function App() {
       <ContactBar />
 
       <Routes>
-        <Route path='/cassandra-cunningham-portfolio/' element={<Home />} />
-        <Route path='/cassandra-cunningham-portfolio/about' element={<About />} />
-        <Route path='/cassandra-cunningham-portfolio/projects' element={<Projects />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/projects' element={<Projects />} />
       </Routes>
     </>
   )
