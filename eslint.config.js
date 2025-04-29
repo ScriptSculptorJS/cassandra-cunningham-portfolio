@@ -16,7 +16,6 @@ export default [
         sourceType: 'module',
       },
     },
-    base: "/cassandra-cunningham-portfolio/",
     plugins: {
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
