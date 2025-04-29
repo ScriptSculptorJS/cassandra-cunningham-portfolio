@@ -32,7 +32,7 @@ function Header() {
 
   return(
     <header>
-      <Link to='/cassandra-cunningham-portfolio/' className='name'> Cassandra Cunningham</Link>
+      <Link to='/' className='name'> Cassandra Cunningham</Link>
       <div className='nav-container'>
         <Link to='/cassandra-cunningham-portfolio/about' className='about'>About</Link>
         <Link to='/cassandra-cunningham-portfolio/projects' className='projects'>Projects</Link>
