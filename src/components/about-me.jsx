@@ -13,19 +13,21 @@ function AboutMe() {
           After years of teaching and tutoring students, I realized that <span>I wanted a career shift</span>. Thus, began my journey into Software Engineering. I took a <span>FullStack Web Development Bootcamp with University of Washington in 2021</span>. I found I quite enjoyed working with others on projects and bringing our ideas together. At the conclusion of our course we created a MERN app.
         </p>
         <p className='bottom-text'>
-          Before finding a career in web development, I began working for eBay where I gained experience in <span>Project Management and finding solutions to problems</span> within our tech stack. Now that I am no longer working with eBay, I am ready to take all the knowledge I've gained from the Bootcamp and eBay, and using this time to refresh my memory on Web Development and build new projects with the aim of <span>making my dream of being a Software Engineer a reality!</span>
+          Before finding a career in web development, I began working for eBay where I gained experience in <span>Project Management and finding solutions to problems</span> within our tech stack. Now that my time at eBay has come to a close, I'm excited to take the knowledge I've gained—from my coding bootcamp, my experience at eBay, and the time I've spent sharpening my web development skills—to the next level. I've been focused on building new projects, deepening my understanding, and preparing to <span>take the next step in making my dream of becoming a Software Engineer a reality.</span>
         </p>
         
         
         <h2 className='titles'>
           Let's Work Together!
         </h2>
+        {/*
         <p>
           I am very passionate about helping you <span>achieve what you are envisioning for your website/app!</span>
         </p>
         <p>
           Is your website/app running into issues? <span>Let me use my detective skills to find their solutions!</span>
         </p>
+        */}
       </div>
 
       <div className='about-me-content' id='skills-content'>
