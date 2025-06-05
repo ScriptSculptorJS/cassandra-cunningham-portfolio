@@ -20,6 +20,12 @@ function AboutMe() {
         <h2 className='titles'>
           Let's Work Together!
         </h2>
+        <p>
+          I bring a unique blend of creativity, adaptability, and collaboration to every project I work on. My background in education sharpened my ability to communicate clearly, explain complex ideas, and work effectively with diverse groups of people. My time at eBay further reinforced these skills, as I regularly collaborated across teams, managed projects, and helped troubleshoot technical challenges. Both roles taught me how to listen actively, problem-solve under pressure, and keep communication at the core of successful teamwork.
+        </p>
+        <p>
+          As a developer, I'm committed to writing clean, maintainable code, continuously learning new technologies, and contributing to team success. Whether it's building intuitive user interfaces, solving tough bugs, or brainstorming new features, I show up with curiosity, positivity, and a drive to grow.
+        </p>
         {/*
         <p>
           I am very passionate about helping you <span>achieve what you are envisioning for your website/app!</span>
