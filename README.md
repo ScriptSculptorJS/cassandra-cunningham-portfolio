@@ -35,4 +35,4 @@ When you are ready to go back to the Home page, you can click my name "Cassandra
 ![Navigate Back to Home - Made with Clipchamp](https://github.com/user-attachments/assets/b6b1da3b-4b90-4251-a6c9-2aae010adb07)
 
 ## Project Status
-Completed
+Continually updating as I continue to grow as a software engineer.
