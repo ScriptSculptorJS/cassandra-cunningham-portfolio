@@ -2,6 +2,13 @@
 A personal portfolio website built from scratch. It shares information about me and showcases some of the projects I've worked on. This was a fun and rewarding project that highlights both my technical skills and creative approach.
 
 It is responsive to all screen sizes. When the screen is on the smaller size, the 2 nav bars merge into one dropdown menu. Any links to outside sources will open in a new window.
+![Cassandra Cunningham Portfolio](public/assets/Portfolio.jpg)
+
+## Table of Contents
+* [Motivation](#motivation)
+* [Built With](#built-with)
+* [How to Use](#how-to-use)
+* [Project Status](#project-status)
 
 ## Motivation
 I wanted to create a site that reflects both my work and personality. Leveraging React.js, JavaScript, CSS, HTML5 and a lot of coffee ☕, I was able to create something I’m truly proud of.
