@@ -12,7 +12,7 @@ function Projects() {
     id: 1,
     image: image4,
     name: 'Memraze',
-    skills: 'HTML5 | CSS | Bootstrap | Javascript | React | CRUD | Axios | JWT Authentication & Backend Cookies',
+    skills: 'HTML5 | CSS | Bootstrap | Javascript | React | MongoDB | JWT Authentication & Backend Cookies | CRUD',
     description: 'Figured out how to use JWT for authenticating users logging into the app to begin creating a profile that showcases their interests and hobbies in tabs and each interest/hobby can have posts sorted from most recent to oldest. This is really showcasing CRUD for their interests/hobbies.',
     repoLink: 'https://github.com/ScriptSculptorJS/Memraze'
   }, {
