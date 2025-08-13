@@ -40,14 +40,19 @@ This wasn’t just a technical challenge — it was a creative journey that allo
     npm run dev
 ## Usage
 - **Receive a Greeting from Me**
+
 ![Navigate Back to Home - Made with Clipchamp](https://github.com/user-attachments/assets/b6b1da3b-4b90-4251-a6c9-2aae010adb07)
 - **Learn About Who I Am** - Visit the About page to learn a bit more about what brought me to where I am today and what I can bring to the table
+
 ![Navigate to About page - Made with Clipchamp](https://github.com/user-attachments/assets/4d21424b-9e16-4f00-853e-76d9c10aaae3)
 - **Discover My Projects** - Jump into the Projects page to discover the projects that showcase the skills I provide and the fun I have been having during my break from a full-time job
+
 ![Navigate to Projects page - Made with Clipchamp](https://github.com/user-attachments/assets/f0e8d431-25c7-488d-a260-4ea7c1a40ad2)
+
 ![Project's Links to Content - Made with Clipchamp](https://github.com/user-attachments/assets/7c253959-a887-4804-9b50-d47c3178100b)
 - **Want to See More?** - Dive into my GitHub and LinkedIn profiles to learn even more
 - **Connect with Me** - Contact me via the email link
+
 ![Social Media Link Nav Bar - Made with Clipchamp](https://github.com/user-attachments/assets/72f47b9c-480f-4e68-a2f9-71855482b736)
 
 ## Future Plans
