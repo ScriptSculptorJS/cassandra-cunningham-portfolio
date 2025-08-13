@@ -1,5 +1,4 @@
 function Project({id, image, name, link, skills, description, repoLink }) {
-  console.log(image);
 
   function highlightedProject(id) {
     if (id === 1) {
