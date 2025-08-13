@@ -6,40 +6,54 @@ It is responsive to all screen sizes. When the screen is on the smaller size, th
 
 ## Table of Contents
 * [Motivation](#motivation)
-* [Built With](#built-with)
-* [How to Use](#how-to-use)
-* [Project Status](#project-status)
+* [Features](#features)
+* [Tech Stack](#tech-stack)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Future Plans](#future-plans)
 
 ## Motivation
 I wanted to create a site that reflects both my work and personality. Leveraging React.js, JavaScript, CSS, HTML5 and a lot of coffee ☕, I was able to create something I’m truly proud of.
 
 This wasn’t just a technical challenge — it was a creative journey that allowed me to deepen my frontend skills, experiment with UI/UX principles, and have fun bringing my ideas to life.
 
-## Built With
-React.js (Vite), JavaScript, CSS, HTML5
+## Features
+- **Multiple Pages to Visit** - Pages include the home (greeting), About me, and my Projects.
+- **External Links** - For my GitHub and LinkedIn profiles and/or to email me personally. Links are provided for deployed projects or video demonstrations of the end result
+- **Responsive UI** - Built with CSS for usability across devices
 
-## How to Use
-When visiting the site, you will see 2 nav bars: 1) containing social links and 2) links to the About and Projects pages. 
+## Tech Stack
+- **Frontend**: React.js (Vite), JavaScript, CSS, HTML5
 
-The social links are located on the left of the screen. You will see a link for my LinkedIn profile, my Github profile, and the ability to email me.
+## Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/ScriptSculptorJS/cassandra-cunningham-portfolio.git
+2. Install dependencies for client:
+    ```bash
+    npm install
+3. Set up .env file in the root directory with the following:
+    ```bash
+    node_modules
+4. Start the development servers:
+    ```bash
+    npm run dev
+## Usage
+- **Receive a Greeting from Me**
+- **Learn About Who I Am** - Visit the About page to learn a bit more about what brought me to where I am today and what I can bring to the table
+- **Discover My Projects** - Jump into the Projects page to discover the projects that showcase the skills I provide and the fun I have been having during my break from a full-time job
+- **Connect with Me** - Contact me via the email link
+- **Want to See More?** - Dive into my GitHub and LinkedIn profiles to learn even more
 
 ![Social Media Link Nav Bar - Made with Clipchamp](https://github.com/user-attachments/assets/72f47b9c-480f-4e68-a2f9-71855482b736)
 
-You can click About to be brought to my About page where you will find information on my, my skills, and eagerness to work with a team.
-
 ![Navigate to About page - Made with Clipchamp](https://github.com/user-attachments/assets/4d21424b-9e16-4f00-853e-76d9c10aaae3)
-
-You can click on Projects to be brought to my Projects page where you will find completed projects I had created myself, and a Wordpress website I updated for Rhododendron Park Maintenance Company's HOA Board.
 
 ![Navigate to Projects page - Made with Clipchamp](https://github.com/user-attachments/assets/f0e8d431-25c7-488d-a260-4ea7c1a40ad2)
 
-There are 2-3 links for each project. The image and project title can be clicked to see the live project. For those that have a Github repository, you will find a button that will take you to the public repo.
-
 ![Project's Links to Content - Made with Clipchamp](https://github.com/user-attachments/assets/7c253959-a887-4804-9b50-d47c3178100b)
-
-When you are ready to go back to the Home page, you can click my name "Cassandra Cunningham" in the top left corner of the screen. 
 
 ![Navigate Back to Home - Made with Clipchamp](https://github.com/user-attachments/assets/b6b1da3b-4b90-4251-a6c9-2aae010adb07)
 
-## Project Status
-Continually updating as I continue to grow as a software engineer.
+## Future Plans
+1. Get a career as a software engineer and continue to add projects and skills as I continue to evolve
