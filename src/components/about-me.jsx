@@ -44,16 +44,27 @@ function AboutMe() {
         </div>
         <div id='skills-list-container'>
           <p>
-            HTML5
+            HTML5 
           </p>
           <p>
-            CSS
+            CSS 
           </p>
           <p>
-            Javascript
+            Javascript 
+          </p>
+          <p> React (Vite) 
           </p>
           <p>
-            React
+            Node.js
+          </p>
+          <p>
+            Express.js
+          </p>
+          <p>
+            MERN
+          </p>
+          <p>
+            CRUD
           </p>
           <p>
             WordPress
