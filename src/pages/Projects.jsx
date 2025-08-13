@@ -1,9 +1,9 @@
 import Project from '../components/project.jsx';
-import image1 from '/assets/instagram-feed-practice.png';
-import image2 from '/assets/lets-go-project.png';
-import image3 from '/assets/Rhody-park.png';
-import image4 from '/assets/Memraze.jpg';
-import image5 from '/assets/annual-report-tracker-and-reminder-app.jpg'
+import image1 from '../../public/assets/instagram-feed-practice.png';
+import image2 from '../../public/assets/lets-go-project.png';
+import image3 from '../../public/assets/Rhody-park.png';
+import image4 from '../../public/assets/Memraze.jpg';
+import image5 from '../../public/assets/annual-report-tracker-and-reminder-app.jpg'
 import React from 'react';
 
 function Projects() {
